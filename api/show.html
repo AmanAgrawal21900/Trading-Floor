@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fetch API</title>
+</head>
+<body>
+	<div>
+	<h1>IEX API</h1>
+	<h3>Fetching SYMBOLS</h3>
+    <input type="text" name="sym" id="sym">
+    <input type="submit" onclick="get_price()">
+
+	<!-- Table to display fetched user data -->
+	<table id="users"></table>
+
+	<select name='sell_shares' id='sell_shares'><option value=A>A</option><option value=AAPL>AAPL</option></select>
+	<script>
+		document.getElementById('sell_shares').addEventListener('change', function(e){
+			alert(e.target.value);
+		});
+	</script>
+	</div>
+	<!-- Link JavaScript file -->
+	<script src="./fetchPrice.js"></script>
+</body>
+</html>

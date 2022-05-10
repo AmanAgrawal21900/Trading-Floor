@@ -1,0 +1,74 @@
+.quoteContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #91F2E9;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.quoteForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteForm input{
+    color: gray;
+    font-size: medium;
+    text-align: center;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.quoteForm input[type="submit"], #view-btn{
+    background-color: #051DA6;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.show-quote{
+    margin-left: 16%;
+    margin-top: 3%;
+    text-align: center;
+    width: 70%;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.showcontent{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    color: aliceblue;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.tabshow{
+    text-align: center;
+    width: 750px;
+    border: 1px solid;
+    margin-top: 20px;
+    background-color: #051DA6;
+}
+
+#buytabletitle{
+    margin-top: 2%;
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+    border: 1px solid;
+}

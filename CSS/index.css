@@ -1,0 +1,72 @@
+/*Navbar*/
+.navbar{
+    background-color: #43B0F1;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0px 10px 0px 0px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    transition: 0.2s ease-in;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color: #1E3D58;
+    cursor: pointer;
+}
+
+.navbar span{
+    transform: translate(50%, 0%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #0000FF;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+#logout-btn{
+    background-color: #43B0F1;
+    transform: translate(500%, 0%);
+}
+
+#logout-btn:hover{
+    background-color: #0000FF;
+    cursor: pointer;
+}
+
+/* for buy.php */
+#buylist, #selllist{
+    background-color: yellow;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+/* for sell.php */
+#sell_shares{
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#elementvanta{
+    height: 100vh;
+    width: 100%;
+}

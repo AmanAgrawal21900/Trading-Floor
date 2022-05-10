@@ -1,0 +1,131 @@
+/*body*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: gray !important;
+}
+
+/*login*/
+.login-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.863);
+    width: 400px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #dee0e1;
+    border-radius: 4px;
+}
+
+.login-logo{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0% 2% 0%;
+    height: 15%;
+}
+
+#trdlogo{
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+
+.title{
+    margin: 3% 0% 0% 6%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input{
+    margin: 1% 6% 1% 6%;
+    font-size: 16px;
+    transition: ease-in 0.1s;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.login-form input:hover{
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+}
+
+#email-lab, #pass-lab{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+#log-submit{
+    background-color: #6421ffa9;
+    border: 1px solid #6521ff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 3%;
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+#log-submit:hover{
+    background-color: #6521ff;
+    cursor: pointer;
+}
+
+#reg{
+    margin-top: 20%;
+    background-color: #6421ffa9;
+    color: white;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+
+#reg:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+
+.erpass, .eruser{
+    display: none;
+    justify-content: center;
+    background-color: rgba(76, 0, 255, 0.459);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* globe */
+#globe{
+    height: 100vh;
+    width: 100%;
+}
